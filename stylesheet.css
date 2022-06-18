@@ -327,3 +327,38 @@ td {
 .contact-right-side img {
   width: 50%;
 }
+
+/* Footer */
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1d1d1e;
+  height: 222px;
+  padding: 0px 155px;
+}
+
+.footer-description {
+  flex: 1;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35.25px;
+  color: #efefef;
+}
+
+.bold-white {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 35.25px;
+}
+
+.footer-social-tabs {
+  flex: 1;
+  display: flex;
+  gap: 40px;
+}
+
+.footer-social-tabs > img {
+  width: 28.33px;
+  cursor: pointer;
+}
