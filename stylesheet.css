@@ -332,14 +332,13 @@ td {
 .footer-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   background-color: #1d1d1e;
   height: 222px;
-  padding: 0px 155px;
+  width: 100%;
 }
 
 .footer-description {
-  flex: 1;
   font-weight: 400;
   font-size: 24px;
   line-height: 35.25px;
@@ -353,7 +352,6 @@ td {
 }
 
 .footer-social-tabs {
-  flex: 1;
   display: flex;
   gap: 40px;
 }
